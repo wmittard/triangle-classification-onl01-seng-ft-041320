@@ -1,3 +1,4 @@
-class Triangle
+class Triangle 
+  
   
 end
