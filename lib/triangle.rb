@@ -1,11 +1,11 @@
 class Triangle
   
-  # 
+  # Accepts 3 arguments on initialization.
     attr_accessor :side1, :side2, :side3
-   @sides = []
+   @length = []
 
     def initialize(side1, side2, side3)
-     @side1, @side2, @side3 = side1, side2, side3
+     @length, @length, @length = side1, side2, side3
      @sides = [side1, side2, side3]
    end
 
@@ -22,7 +22,7 @@ class Triangle
    end
 
     def negative?
-     @sides.each do |length|
+     @legnth.each do |length|
        if(length <= 0)
          return true
        end
@@ -30,7 +30,7 @@ class Triangle
    end
 
     def equilateral?
-     (@side1 == @side2) && (@side1 == @side3)
+     (@length1 == @length2) && (@length1 == @length3)
    end
 
     def scalene?
