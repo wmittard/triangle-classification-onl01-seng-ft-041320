@@ -7,5 +7,7 @@ class Triangle
     @length_3 = length_3
    
   end 
-  
+  class TriangleError < StandardError
+  end 
+    
 end
